@@ -1,0 +1,3 @@
+# Expo Go and Custom Native Module Standalone Build Failure
+
+This repository demonstrates a bug encountered while building an Expo app with a custom native module. The app functions correctly when run using the Expo development server but fails to load when built as a standalone app and run on Expo Go. The error messages are unhelpful. The solution involves checking if the module is correctly linked and handling potential exceptions more robustly within the native module.
